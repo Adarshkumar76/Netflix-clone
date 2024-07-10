@@ -196,7 +196,7 @@ body {
   justify-content: center;
   max-width: 80vw;
   margin: auto;
-  padding: 50px;
+  padding: 40px;
   font-family: "Martel Sans", sans-serif;
 }
 .question {
@@ -246,7 +246,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 15px;
 }
-.links a{
+.links a {
   text-decoration: underline;
   color: rgb(164, 164, 164);
 }
@@ -260,11 +260,28 @@ body {
   .form {
     flex-direction: column;
   }
+  .hero input,
+.fq input{
+  width: 70vw;
+  margin: 10px;
+}
+  .hero button,
+  .fq button {
+    width: 40vw;
+  }
   .first,
   .second,
   .third {
     flex-direction: column;
   }
+  .hero h1,
+  .first h1,
+.second h1,
+.third h1,
+.fq h1 {
+  font-size: 2rem;
+
+}
   .img img {
     width: 75vw;
   }
@@ -281,7 +298,10 @@ body {
     height: 100vh;
     justify-content: center;
   }
-  .links{
+  .question {
+    height: auto;
+  }
+  .links {
     grid-template-columns: 1fr 1fr;
   }
 }
